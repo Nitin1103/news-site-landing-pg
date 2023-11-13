@@ -37,8 +37,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Nitin1103/news-site-landing-pg)
-- Live Site URL: [Add live site URL here](https://nitin1103.github.io/news-site-landing-pg/)
+- Solution URL: [Github  Repo Link](https://github.com/Nitin1103/news-site-landing-pg)
+- Live Site URL: [Live Site](https://nitin1103.github.io/news-site-landing-pg/)
 
 ## My process
 
