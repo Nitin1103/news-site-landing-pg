@@ -11,8 +11,9 @@
 </head>
 
 <body>
+
   <div id="hamburger-menu">
-    <div class="close-icon" onclick="closeMenu()">
+    <div id="close-icon">
       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
         <line x1="10" y1="10" x2="30" y2="30" stroke="#000" stroke-width="2" />
         <line x1="30" y1="10" x2="10" y2="30" stroke="#000" stroke-width="2" />
@@ -26,6 +27,9 @@
       <li><a href="/">Categories</a></li>
     </ul>
   </div>
+
+
+
   <main class="grid-container">
     <article>
       <div class="logo">
@@ -35,13 +39,17 @@
             fill="#00001A" />
         </svg>
       </div>
-      <div id="menu-icon" onclick="openMenu()">
+
+
+      <div id="menu-icon">
         <svg id="open-icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
           <rect width="30" height="3" rx="1.5" fill="#000" />
           <rect y="13" width="30" height="3" rx="1.5" fill="#000" />
           <rect y="26" width="30" height="3" rx="1.5" fill="#000" />
         </svg>
       </div>
+
+
     </article>
 
     <article>
@@ -123,18 +131,6 @@
     </article>
   </main>
 </body>
-<script>
-  const ham_menu = document.getElementById("hamburger-menu");
-  const open_icon = document.getElementById("open-icon");
-  const close_icon = document.getElementById("close-icon");
-  function openMenu() {
-    document.getElementById("hamburger-menu").style.display = "block";
-    document.getElementById("open-icon").style.display = "none";
-  }
-  function closeMenu() {
-    document.getElementById("hamburger-menu").style.display = "none";
-    document.getElementById("open-icon").style.display = "block";
-  }
-</script>
+<script src="script.js"></script>
 
 </html>
